@@ -73,7 +73,7 @@ async function f() {
             e.preventDefault();
             $.ajax({
                 type: "POST",
-                url: "./mailer/smart.php",
+                url: "http://e90573q9.beget.tech/smart.php",
                 data: $(this).serialize()
             }).done(function() {
                 $(this).find("input").val("");
