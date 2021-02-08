@@ -2,32 +2,32 @@
   "product": [
     {
       "name": "Кресло",
-      "img": "http://dev-wbooster.ru/test_task/img/img-1.png",
+      "img": "./img/img-1.png",
       "price": "9900"
     },
     {
       "name": "Кресло2",
-      "img": "http://dev-wbooster.ru/test_task/img/img-1.png",
+      "img": "./img/img-1.png",
       "price": "9900"
     },
     {
       "name": "Кресло3",
-      "img": "http://dev-wbooster.ru/test_task/img/img-1.png",
+      "img": "./img/img-1.png",
       "price": "9900"
     },
     {
       "name": "Парикмахерское кресло «Норм» гидравлическое",
-      "img": "http://dev-wbooster.ru/test_task/img/img-1.png",
+      "img": "./img/img-1.png",
       "price": "9900"
     },
     {
       "name": "Парикмахерское кресло «Норм» гидравлическое",
-      "img": "http://dev-wbooster.ru/test_task/img/img-1.png",
+      "img": "./img/img-1.png",
       "price": "9900"
     },
     {
       "name": "Парикмахерское кресло «Норм» гидравлическое",
-      "img": "http://dev-wbooster.ru/test_task/img/img-1.png",
+      "img": "./img/img-1.png",
       "price": "9900"
     }
   ]
