@@ -1,0 +1,269 @@
+* {
+   
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    
+    margin: 0 auto;
+    width: 1140px;
+
+}
+
+nav {
+    
+    position: fixed;
+    z-index: 999;
+    
+    height: 50px;
+    background-color: #212121;
+    width: 100%;
+}
+
+header {
+    position: relative;
+    height: 50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style: none;
+
+    
+}
+
+
+
+header .menu_link {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    
+    
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+    
+}
+
+
+.subheader {
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0, 0, 0, .6);
+    top: 50px;
+}
+
+.subheader .logo_link {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+
+}
+
+
+.subheader .logo_descr {
+    margin-top: 6px;
+    opacity: 0.5;
+    color: #ffffff;
+    
+    font-size: 13px;
+    font-weight: 400;
+    
+}
+
+.subheader .subheader_call {
+    margin-top: 23px;
+    color: #ffffff;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 300;
+  
+}
+
+.subheader .subheader_phone {
+    margin-top: 8px;
+    color: #ffffff;
+    text-align: right;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 12px;
+}
+
+
+.subheader .subheader_btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    border: 0px solid rgba(0, 0, 0, 0.07);
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    border-radius: 4px;
+    border: none;
+
+
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+  
+    font-size: 14px;
+    font-weight: 400;
+    
+    text-transform: uppercase;
+
+
+
+
+}
+
+.promo  {
+    min-height: 799px;
+    background: url('../image/bg_promo.png') center center/cover no-repeat;
+    padding: 151px 0 135px 0;
+
+}
+
+
+.promo .promo_title {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "КОМПАНИЯ U" */
+    
+    font-size: 60px;
+    
+    line-height: 60px;
+    text-align: center;
+}
+
+.promo .promo_subtitle {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.promo .promo_text {
+    color: #ffffff;
+    
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.promo .promo_btn {
+    display: block;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    border: 0px solid rgba(0, 0, 0, 0.07);
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    border-radius: 4px;
+    margin : 118px auto 0;
+    outline: none;
+
+    
+    
+
+
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 68px;
+    text-transform: uppercase;
+}
+
+.causes {
+   
+    min-height: 900px;
+    padding: 71px 0 68px 0;
+}
+
+.causes .title {
+
+    margin: 0 auto;
+    height: 24px;
+    width: 112px;
+    padding: 5px 12px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+
+
+}
+
+.causes .subtitle {
+    margin-top: 44px;
+    color: #222222;
+    
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.causes .point {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+   
+}
+
+.causes .point .point_img {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+
+
+    
+    
+}
+
+.point_descr {
+    width: 341px;
+
+
+}
+
+.causes .point .point_descr .point_descr_title {
+    color: #1eacc7;
+    
+    font-size: 17px;
+    font-weight: 400;
+    font-size: 15px;
+    
+    line-height: 21px;
+}
+
+.causes .point .point_descr .point_descr_text {
+    
+  
+
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}

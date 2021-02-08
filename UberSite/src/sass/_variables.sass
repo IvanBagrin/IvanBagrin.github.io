@@ -1,0 +1,485 @@
+
+.container
+  margin: 0 auto
+  width: 1140px
+
+nav
+  position: fixed
+  z-index: 999
+  height: 50px
+  background-color: #212121
+  width: 100%
+
+header
+  position: relative
+  height: 50px
+
+.menu
+  display: flex
+  justify-content: space-between
+  padding: 13px 70px
+  margin: 0
+  list-style: none
+  
+  &_link
+    color: #ffffff
+    font-size: 15px
+    font-weight: 300
+    text-decoration: none
+
+  &_item
+    border-right: 2px dotted black
+    padding-right: 28px
+    &:last-child
+      border-right: none
+
+
+    
+      
+
+.subheader
+  position: absolute
+  width: 100%
+  height: 84px
+  background-color: rgba(0, 0, 0, 0.6)
+  top: 50px
+
+
+  &_logo_link
+    display: block
+    max-width: 100%
+    margin-top: 16px
+
+  &_logo_descr
+    margin-top: 6px
+    opacity: 0.5
+    color: #ffffff
+    font-size: 13px
+    font-weight: 400
+
+  &_call
+    margin-top: 23px
+    color: #ffffff
+    text-align: right
+    font-size: 12px
+    font-weight: 300
+
+  &_phone
+    display: block
+    margin-top: 8px
+    color: #ffffff
+    text-align: right
+    font-size: 22px
+    font-weight: 400
+    text-transform: uppercase
+    line-height: 12px
+
+  &_btn
+    margin-top: 19px
+    width: 172px
+    height: 46px
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
+    border: 0px solid rgba(0, 0, 0, 0.07)
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+    border-radius: 4px
+    border: none
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+    color: #ffffff
+    font-size: 14px
+    font-weight: 400
+    text-transform: uppercase
+    +btn_hover
+
+.promo
+  min-height: 799px
+  background: url('../image/bg_promo.png') center (center / cover) no-repeat
+  padding: 151px 0 135px 0
+
+  &_title
+    color: #ffffff
+    font-family: Roboto
+    font-size: 36px
+    font-weight: 700
+    text-transform: uppercase
+
+    /* Text style for "КОМПАНИЯ U"
+
+    font-size: 60px
+    line-height: 60px
+    text-align: center
+
+  .promo_subtitle
+    color: #ffffff
+    font-family: Roboto
+    font-size: 36px
+    font-weight: 700
+    text-transform: uppercase
+    line-height: 36px
+    text-align: center
+    margin-top: 22px
+
+  .promo_text
+    color: #ffffff
+    font-size: 18px
+    font-weight: 400
+    line-height: 24px
+    text-align: center
+
+  .promo_btn
+    display: block
+    width: 259px
+    height: 63px
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12)
+    border: 0px solid rgba(0, 0, 0, 0.07)
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+    border-radius: 4px
+    margin: 118px auto 0
+    outline: none
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+    color: #ffffff
+    font-family: Roboto
+    font-size: 18px
+    font-weight: 400
+    line-height: 68px
+    text-transform: uppercase
+    +btn_hover
+
+.causes
+  min-height: 900px
+  padding: 71px 0 68px 0
+
+.title
+  margin: 0 auto
+  height: 24px
+  width: 112px
+  text-align: center
+  padding: 5px 12px
+  background-color: #000000
+  color: #ffffff
+  font-size: 11px
+  font-weight: 300
+  text-transform: uppercase
+  &_text
+    margin-top: 19px
+    text-align: center
+    color: #222222
+    font-size: 17px
+    font-weight: 400
+    line-height: 21px
+  &_car
+    background-color: #ffffff
+    color: #000000
+  &_car_re
+      color: #ffffff
+
+.subtitle
+  margin-top: 38px
+  color: #222222
+  font-size: 38px
+  font-weight: 700
+  text-align: center
+  text-transform: uppercase
+  &_car_re
+    color: #ffffff
+
+
+
+
+
+
+
+  
+
+.point
+  display: flex
+  justify-content: center
+  align-items: center
+  margin-top: 35px
+  &_img
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-right: 26px
+    width: 113px
+    height: 113px
+    background-color: #1eacc7
+    border-radius: 100%
+  &_descr
+    width: 341px
+    &_title
+      color: #1eacc7
+      font-size: 17px
+      font-weight: 400
+      font-size: 15px
+      line-height: 21px
+
+  &_descr_text
+    font-size: 15px
+    font-weight: 300
+    line-height: 21px
+
+    
+
+.advantage
+  position: relative
+  min-height: 864px
+  background: url('../image/bg_advantage.png') center center/cover no-repeat
+  .row
+    margin-top: 32px
+  &_block
+    width: 320px
+    height: 280px
+    margin: 0 auto
+    margin-bottom: 19px
+    padding-top: 92px
+  
+  &_title
+    
+    color: #ffffff
+    
+    font-size: 24px
+    font-weight: 400
+    font-style: normal
+    letter-spacing: normal
+    line-height: 31px
+    text-align: center
+    text-transform: uppercase
+    // Text style for "надежная п"
+    font-style: normal
+    letter-spacing: normal
+    line-height: normal
+        
+  &_block_1
+      background: url('../image/advantage/advantage_1.png') center center/cover no-repeat
+  &_block_2
+      background: url('../image/advantage/advantage_2.png') center center/cover no-repeat
+  &_block_3
+      background: url('../image/advantage/advantage_3.png') center center/cover no-repeat
+  &_block_4
+      background: url('../image/advantage/advantage_4.png') center center/cover no-repeat
+  &_block_5
+      background: url('../image/advantage/advantage_5.png') center center/cover no-repeat
+  &_block_6
+      background: url('../image/advantage/advantage_6.png') center center/cover no-repeat
+    
+  &_img
+    display: flex
+    justify-content: center
+    align-items: center
+    position: absolute
+    width: 26px
+    height: 26px
+    background-color: #000000
+    border-radius: 100%
+    margin: 0 auto
+    bottom: 35px
+    left: 50%
+    transform: translateX(-50%)
+    cursor: pointer
+    &:before
+      content: ''
+      display: block
+      width: 14px
+      height: 2px
+      background-color: #1eacc7
+      transition: 0.3s all
+    &:after
+      content: ''
+      position: absolute
+      left: 50%
+      display: block
+      width: 2px
+      height: 14px
+      background-color: #1eacc7
+      transform: translateX(-50%)
+      transition: 0.3s all
+    &:hover
+      &:before, &:after
+        background-color: #c7451e
+        
+
+          
+
+       
+
+
+        
+        
+.car
+  min-height: 896px
+  padding: 56px 0 138px 0
+  background: url('../image/bg_car.png') center center/cover no-repeat
+  
+  &_img
+    margin-top: 56px
+    display: flex
+    justify-content: center
+    align-items: center
+  &_text
+    margin-top: 4px
+    text-align: center
+    
+
+.terms
+  padding: 68px 0 51px 0
+
+  &_title
+    color: #1ca8c3
+    font-size: 22px
+    font-weight: 600
+    
+
+  &_block
+    margin: 33px 0
+
+  &_list
+    list-style-type: none
+    padding-left: 50px
+    margin-top: 22px
+  
+
+    li
+      position: relative
+      font-weight: 300
+      font-style: normal
+      letter-spacing: normal
+      line-height: normal
+      margin-bottom: 10px
+
+      &::before
+        content: ''
+        display: block
+        position: absolute
+        left: -32px
+        top: 3px
+        width: 21px
+        height: 20px
+        background: url('../icon/terms/check_blue.png') center center/cover no-repeat
+  &_descr
+    color: #1ca8c3
+    font-weight: 300
+    font-style: normal
+    letter-spacing: normal
+
+  .warning
+    .terms_title
+      color: #ff5656
+
+    .terms_list
+      li
+        &:before
+          background: url('../icon/terms/check_red.png') center center/cover no-repeat
+            
+.cities
+  position: relative
+  min-height: 717px
+  padding: 49px 0
+  background: url('../image/bg_cities.png') center center/cover no-repeat
+
+
+  &_see
+    // Style for "посмотреть"
+    margin-top: 654px
+    color: #1fbad6
+   
+    font-size: 15px
+    font-weight: 400
+    font-style: normal
+    letter-spacing: normal
+    line-height: 68px
+    text-align: center
+    text-transform: uppercase
+    // Text style for "посмотреть"
+    font-style: normal
+    letter-spacing: normal
+    line-height: normal
+    bottom: 49px
+    
+    a
+      text-decoration: none
+      
+
+.footer
+
+  position: relative
+  
+  height-min: 150px
+  width: 100%
+  padding: 15px 0 16px 0
+
+  &_line
+    display: block
+    width: 300px
+    height: 4px
+    background-color: #1fbad6
+    margin: 0 auto
+  
+  &_networks
+    margin: 32px 0 0 23px
+    display: flex
+    float: left
+    //justify-content: center
+    align-items: center
+    &_round
+      
+      
+      display: inline-block
+      
+      width: 33px
+      height: 33px
+      background-color: #070716
+      border-radius: 100%
+      margin-left: 10px
+
+  
+
+  &_ul
+    
+    text-transform: uppercase
+    display: flex
+    justify-content: space-between
+    
+    padding: 10px 
+    margin: 20px 0 0 -63px
+    list-style: none
+    font-size: 15px
+      
+    li
+      a
+        color: #070716
+        text-decoration: none
+
+  &_submenu
+    &_ul
+      text-transform: uppercase
+      display: flex
+      justify-content: space-between
+      align-items: center
+      padding: 10px 
+      margin-top: -20px
+      list-style: none
+      font-size: 11px
+      li
+        a
+          color: #999999
+          text-decoration: none
+          
+
+          
+
+
+  &_language
+    text-transform: uppercase
+    text-align: center
+    font-size: 14px
+    margin-top: -14px
+    color: 1fbad6
+    a
+      text-decoration: none
+
+
+  &_play
+    position: absolute
+    display: flex
+    right: 25px
+    top: 50px
