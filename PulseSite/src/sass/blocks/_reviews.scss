@@ -1,0 +1,17 @@
+.reviews {
+    min-height: 970px;
+    margin-bottom: 48px;
+    &__wrapper {
+        margin-top: 60px;
+    }
+
+    &__user {
+        width: 50%;
+        height: 220px;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+    
+    }
+}
+
